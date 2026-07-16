@@ -27,7 +27,7 @@ namespace GameplayFramework.Core.Bootstrap
         private void Initialize()
         {
             // Log the framework name and version
-            FrameworkLogger.Info($"{FrameworkInfo.Name} v{FrameworkInfo.Version} initialized.");
+            FrameworkLogger.Info($"Initialized. V:{FrameworkInfo.Version} ");
         }
     }
 }

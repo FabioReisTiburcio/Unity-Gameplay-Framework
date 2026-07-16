@@ -27,7 +27,7 @@ namespace GameplayFramework.Core.Logging
 
         private static void Log(string message, LogLevel level)
         {
-            string logMessage = $"[{FrameworkInfo.Name}] {message}";
+            string logMessage = $"{FrameworkInfo.Name} {message}";
             switch (level)
             {
                 case LogLevel.Info:
